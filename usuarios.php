@@ -10,6 +10,6 @@ mysql_select_db("usuarios", $connect)
 	
 	
 	
-mysql_close($connect);
+//mysql_close($connect);
 
 ?>
