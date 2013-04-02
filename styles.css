@@ -1,0 +1,15 @@
+* {
+    outline: medium none;
+    position: relative;
+    z-index: 99;
+}
+
+body{background:#180153;}
+
+.content{width:980px; display:block; margin:0 auto; }
+.h1container{display:block;}
+.h1container h1{color:#FFF; margin:49px 295px;}
+.title{color:#FFF; font:bold 15px/17px trebuchet ms; letter-spacing:.7px;}
+.inputContent{display:inline-block; margin:14px;}
+.send{display:block; margin:35px 0 35px 14px; cursor:pointer; background:#180153; color:#FFF; padding:7px 21px; border:1px solid #FFF; font-weight:bold;}
+.send:hover{background:#FFF; color:#180153; border:1px solid #000;}
