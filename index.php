@@ -20,6 +20,7 @@ echo "Nuevo contacto agregado";
 		<div class="h1container">
 			<h1>Administracion de Usuarios</h1>
 		</div>
+		<a class="" href="listar.php">Listar tabla</a>
 		<form action="addContact.php" method="post">
 			
 			<div class="inputContent">
@@ -37,10 +38,10 @@ echo "Nuevo contacto agregado";
 				<input type="text" name="Mail" id="mail">
 			</div>
 			
-			<div class="inputContent">
+			<!--div class="inputContent">
 				<label class="title" for="Code">Codigo:</label>
 				<input type="text" name="Code" id="Code">
-			</div>
+			</div-->
 			
 			<input class="send" type="submit" value="Agregar">
 
