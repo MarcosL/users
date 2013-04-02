@@ -1,16 +1,8 @@
-<?/*php
 
-include("usuarios.php");
-mysql_query("INSERT INTO contacto (FirstName, LastName, Mail)
-VALUES ('Marcos', 'Ledezma', 'm.ledezma@esencia.com.py')")
-	or die ('No se pudo agregar el nuevo contacto');
-	
-echo "Nuevo contacto agregado";
-
-*/?>
 <html>
 
 <head>
+<title>Admin Usuario</title>
 <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
 </head>
 
@@ -20,7 +12,7 @@ echo "Nuevo contacto agregado";
 		<div class="h1container">
 			<h1>Administracion de Usuarios</h1>
 		</div>
-		<a class="" href="listar.php">Listar tabla</a>
+		
 		<form action="addContact.php" method="post">
 			
 			<div class="inputContent">
@@ -45,7 +37,8 @@ echo "Nuevo contacto agregado";
 			
 			<input class="send" type="submit" value="Agregar">
 
-
+			<a class="tableList" href="listar.php">Listar tabla</a>
+			
 		</form>
 	</div>
 

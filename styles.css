@@ -13,3 +13,9 @@ body{background:#180153;}
 .inputContent{display:inline-block; margin:14px;}
 .send{display:block; margin:35px 0 35px 14px; cursor:pointer; background:#180153; color:#FFF; padding:7px 21px; border:1px solid #FFF; font-weight:bold;}
 .send:hover{background:#FFF; color:#180153; border:1px solid #000;}
+
+.tableList{color:#FFF; margin:0 0 0 615px;}
+
+.listeado div{display:block; margin:14px 0;}
+.listeado span{display:inline-block; color:#FFF; margin:0 7px; width:120px;}
+.listeado .title{color:#999; font:bold 18px/22px trebuchet ms; letter-spacing:.7px; text-transform:uppercase;}
