@@ -1,6 +1,7 @@
 <html>
 <head>
 	<title>listado</title>
+	<link rel="shortcut icon" href="favicon.ico" />
 	<link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
 </head>
 <body>
@@ -24,12 +25,15 @@ exit();
 ?>
 
 <div class="listeado">
-<div><span class="title">nombre</span><span class="title">apellido</span><span class="title">mail</span></div><?php 
+<div><span class="title">nombre</span><span class="title">apellido</span><span class="title">mail</span><span class="title">Codigo</span></div><?php 
 while ($row=mysql_fetch_array($result)){
 echo '<div><span>'.$row["FirstName"].'</span>';
 echo '<span>'.$row["LastName"].'</span>';
-echo '<span>'.$row["Mail"].'</span>';}
+echo '<span>'.$row["Mail"].'</span>';
+echo '<span>'.$row["Code"].'</span>';}
 mysql_free_result($result)?>
+
+<a class="return" href="index.php">Regresar</a>
 </div>
 </body>
 </html>
